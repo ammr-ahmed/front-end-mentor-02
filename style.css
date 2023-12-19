@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background-color: hsl(30, 38%, 92%);
+    width: auto;
+    height: 100vh;
+}
+
+
+.card {
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    align-items: center;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    border-radius: 20px;
+}
+
+img {
+    width: 50%;
+    height: 500px;
+    border-radius: 20px 0 0 20px;
+
+}
+
+h3 {
+    position: absolute;
+    left: 305px;
+    top: 35px;
+    font-weight: 100;
+    font-size: 10px;
+    color: hsla(0, 0%, 0%, 0.506);
+    letter-spacing: 5px;
+
+}
+
+.up {
+    position: absolute;
+    left: 305px;
+    top: 70px;
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+
+}
+
+.fo {
+    position: absolute;
+    left: 305px;
+    top: 210px;
+    text-decoration: none;
+    color: hsla(0, 0%, 0%, 0.506);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    position: absolute;
+    left: 305px;
+    top: 320px;
+    color: hsl(145, 33%, 35%);
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+
+}
+
+p {
+    position: absolute;
+    left: 435px;
+    top: 328px;
+    font-weight: 200;
+    text-decoration: line-through;
+    font-family: 'Fraunces', serif;
+    color: hsla(0, 0%, 0%, 0.506);
+    font-size: 14px;
+
+}
+
+.btm {
+    background-color: hsl(145, 33%, 35%);
+    width: 230px;
+    height: 35px;
+    position: absolute;
+    left: 305px;
+    top: 400px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+.btm span {
+    font-size: 20px;
+    padding-right: 5px;
+    position: absolute;
+    top: 13px;
+    left: 40px;
+}
